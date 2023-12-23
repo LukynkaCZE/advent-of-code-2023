@@ -27,7 +27,7 @@ val part2digits = listOf(
     "nine"
 )
 
-fun main(args: Array<String>) {
+fun main() {
 
     // Load input to list
     File("./inputs/day1.txt").forEachLine { input.add(it) }
